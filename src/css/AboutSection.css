@@ -1,0 +1,47 @@
+@font-face {
+    font-family:interBlack;
+    src: url("../Asset/Inter Font/static/Inter-Black.ttf");
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    background: none !important;
+    border:1px solid black;
+    overflow: hidden;
+  }
+
+  
+  .aboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.imgSec{
+    max-width: 20%;
+    height: fit-content;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.imgSec>img{
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: interBlack;
+    padding-top: 1em;
+}
+.txtSec{
+    width: 100%;
+    text-align: justify;
+    padding: 1em;
+}

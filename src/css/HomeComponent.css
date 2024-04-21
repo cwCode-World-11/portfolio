@@ -1,0 +1,10 @@
+
+
+
+.dividerLine{
+  /* background-image: linear-gradient(to right,rgba(255, 0, 0, 0) 0%,rgb(4, 4, 4) 10% 90%,rgba(0, 0, 255, 0) 100%); */
+  margin: 5em auto;
+  width: 80%;
+  height: 1px;
+  /* opacity: .5; */
+}

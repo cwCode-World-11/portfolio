@@ -1,0 +1,86 @@
+.skillSec{
+    display: flex;
+    box-sizing: border-box;
+    transition: all 1s ease;
+}
+
+.categoryLeft{
+    /* background-color: red !important; */
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    height: auto;
+    cursor: pointer;
+}
+
+.skillLeft{
+    transition: all .5s ease;
+    /* background-color: rgb(31, 31, 31) !important; */
+    height: 100%;
+    padding: 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skillLeft:hover{
+    background-color: grey !important;
+}
+
+.skillsRight{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin: auto;
+    /* background-color: teal !important; */
+    /* z-index: 100; */
+    width: 84%;
+    flex-wrap:wrap;
+    /* height: 100%; */
+    height: fit-content;
+    padding: 1em;
+    overflow: auto;
+}
+.skillCard{
+    background-color: rgb(165, 42, 42);
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-wrap: break-word;
+    /* word-break: break-all; */
+    border-radius: 10px;
+
+}
+.cardImgDiv{
+    /* background-color: blue; */
+    width: 100px;
+    border-radius: 10px;
+
+}
+.cardImgDiv>img{
+    /* background-color: aqua; */
+    max-width: 100px;
+    max-height: 100px;
+    padding: 1em;
+    border-radius: 10px;
+    /* opacity: .3; */
+}
+
+@media screen and (max-width:768px) {
+    .categoryLeft,.skillLeft{
+        /* background-color: red !important; */
+        width: 30vw;
+        /* height: 10vh; */
+    }
+
+    .skillsRight{
+        overflow: hidden;
+    }
+    
+}
